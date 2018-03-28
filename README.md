@@ -42,19 +42,11 @@ Powershell
 
 A step by step series of examples that tell you have to get a development env running
 
-Say what the step will be
+* Download the ps1 file
 
-```
-Download the ps1 file
-```
+* locate the script in powershell
 
-```
-locate the script in powershell
-```
-
-```
-dot source the function
-```
+* dot source the function
 
 
 PS C:\Users>cd "User\OneDrive\PowerShell\Inventory"
@@ -62,6 +54,8 @@ PS C:\Users>cd "User\OneDrive\PowerShell\Inventory"
 PS C:\Users\User\OneDrive\PowerShell\Inventory>. .\Get-RemoteComputerInfo.ps1
 
 PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-RemoteComputerInfo -RemoteComputer $env:COMPUTERNAME
+
+```
 
  Name | Info |
 | ------------- | ------------- |
