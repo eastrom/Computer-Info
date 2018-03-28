@@ -66,7 +66,7 @@ PS C:\Users\User\OneDrive\PowerShell\Inventory>. .\Get-RemoteComputerInfo.ps1
 
 PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-RemoteComputerInfo -RemoteComputer $env:COMPUTERNAME
 
- First Header  | Second Header |
+ Name | Info |
 | ------------- | ------------- |
 | OSArchitecture  | 64-bit  |
 | Manufacturer | Parallels Software International Inc.  |
