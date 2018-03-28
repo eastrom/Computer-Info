@@ -30,14 +30,14 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will help you getting started. 
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
 
 ```
-Give examples
+Powershell
 ```
 
 ### Installing
@@ -47,68 +47,69 @@ A step by step series of examples that tell you have to get a development env ru
 Say what the step will be
 
 ```
-Give the example
+Download the ps1 file
 ```
 
-And repeat
-
 ```
-until finished
+locate the script in powershell
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+```
+dot source the function
+```
+
+
+PS C:\Users>cd "User\OneDrive\PowerShell\Inventory"
+
+PS C:\Users\User\OneDrive\PowerShell\Inventory>. .\Get-RemoteComputerInfo.ps1
+
+PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-RemoteComputerInfo -RemoteComputer $env:COMPUTERNAME
+
+OSArchitecture   : 64-bit
+Manufacturer     : Parallels Software International Inc.
+ActiveUser       : Computer\User
+CPUCores         : 2
+CPUName          : Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz
+FreeDiskspace    : 233
+CPUDescription   : Intel64 Family 6 Model 142 Stepping 9
+TotalVirtualMem  : 5.35
+TotalPhysicalMem : 4
+DiskDrivename    : C:
+OSType           : 18
+RunTime          : 2018-03-28_09:51
+TotalVisibleMem  : 3.98
+ProcessCount     : 148
+OSVersion        : 10.0.16299
+Computername     : Computer
+SerialNumber     : 00330-80118-66768-AA713
+OSName           : Microsoft Windows 10 Pro
+TotalDiskSize    : 255
+Model            : Parallels Virtual Platform
+LastBootTime     : 20180325053800.585193+120
 
 ## Running the tests
 
 Explain how to run the automated tests for this system
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-6) - Powershell is king
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* Eastrom
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is not licensed
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Microsoft
 
