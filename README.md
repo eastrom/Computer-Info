@@ -1,4 +1,4 @@
-# Computer-Info
+# Get-RemoteComputerInfo
 Get Information about a computer
 
 .SYNOPSIS
