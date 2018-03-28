@@ -26,9 +26,6 @@ Get Information about a computer
 
     
 
-# Project Title
-One Paragraph of project description goes here
-
 ## Getting Started
 
 These instructions will help you getting started. 
