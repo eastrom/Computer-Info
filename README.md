@@ -66,27 +66,30 @@ PS C:\Users\User\OneDrive\PowerShell\Inventory>. .\Get-RemoteComputerInfo.ps1
 
 PS C:\Users\User\OneDrive\PowerShell\Inventory>Get-RemoteComputerInfo -RemoteComputer $env:COMPUTERNAME
 
-OSArchitecture   : 64-bit
-Manufacturer     : Parallels Software International Inc.
-ActiveUser       : Computer\User
-CPUCores         : 2
-CPUName          : Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz
-FreeDiskspace    : 233
-CPUDescription   : Intel64 Family 6 Model 142 Stepping 9
-TotalVirtualMem  : 5.35
-TotalPhysicalMem : 4
-DiskDrivename    : C:
-OSType           : 18
-RunTime          : 2018-03-28_09:51
-TotalVisibleMem  : 3.98
-ProcessCount     : 148
-OSVersion        : 10.0.16299
-Computername     : Computer
-SerialNumber     : 00330-80118-66768-AA713
-OSName           : Microsoft Windows 10 Pro
-TotalDiskSize    : 255
-Model            : Parallels Virtual Platform
-LastBootTime     : 20180325053800.585193+120
+ First Header  | Second Header |
+| ------------- | ------------- |
+| OSArchitecture  | 64-bit  |
+| Manufacturer | Parallels Software International Inc.  |
+| ActiveUser  | Computer\User  |
+| CPUCores  | 2  |
+| CPUName   | Intel(R) Core(TM) i5-7267U CPU @ 3.10GHz  |
+| FreeDiskspace   | 233  |
+| CPUDescription   | Intel64 Family 6 Model 142 Stepping 9  |
+| TotalVirtualMem   | 5.35  |
+| TotalPhysicalMem  | 4  |
+| DiskDrivename   | C: |
+| OSType | 18  |
+| RunTime  | 2018-03-28_09:51  |
+| TotalVisibleMem   | 3.98  |
+| ProcessCount   | 148  |
+| OSVersion  | 10.0.16299 |
+| Computername | Computer  |
+| SerialNumber  | 00000-88888-66666-AAAAA  |
+| OSName  | Microsoft Windows 10 Pro  |
+| TotalDiskSize   | 255  |
+| Model  | Parallels Virtual Platform  |
+| LastBootTime  | 20180325053800.585193+120  |
+
 
 ## Running the tests
 
