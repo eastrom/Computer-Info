@@ -48,6 +48,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 * dot source the function
 
+```
 
 PS C:\Users>cd "User\OneDrive\PowerShell\Inventory"
 
